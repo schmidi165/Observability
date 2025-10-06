@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  # (A) Pull: Scrape die /metrics-Endpunkte deiner Services
+  - job_name: "aspire-services"
+    static_configs:
+      - targets: ["observability:5041"]   # Port = der von deiner API exponierte HTTP-Port
+    metrics_path: /metrics

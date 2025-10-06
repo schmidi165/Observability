@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Dependency.Controllers.TestingController",
+    "Method": "Get",
+    "RelativePath": "Testing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

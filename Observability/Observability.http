@@ -1,0 +1,26 @@
+@Observability_HostAddress = http://localhost:5041
+
+### 
+GET {{Observability_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{Observability_HostAddress}}/weatherforecast/Houston/temperature
+Accept: application/json
+
+### Testing city which won't exist
+GET {{Observability_HostAddress}}/weatherforecast/Braunau/temperature
+Accept: application/json
+
+### Testing logging with source generator
+GET {{Observability_HostAddress}}/testing
+Accept: application/json
+
+### Testing long running operation
+POST {{Observability_HostAddress}}/weatherforecast
+Accept: application/json
+
+
+###
+GET {{Observability_HostAddress}}/weatherforecast/dependency
+Accept: application/json

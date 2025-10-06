@@ -1,0 +1,289 @@
+2025-09-25 15:33:11.070 +02:00 [DBG] Looking up temperature in 7
+2025-09-25 15:33:11.298 +02:00 [INF] [WeatherForecastService] (25.09.2025 13:33:11): Getting temperature took 160ms
+2025-09-25 15:33:13.869 +02:00 [DBG] Looking up temperature in 7
+2025-09-25 15:33:13.877 +02:00 [INF] [WeatherForecastService] (25.09.2025 13:33:13): Getting temperature took 7ms
+2025-09-25 15:45:22.256 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 15:45:25.301 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Observability.Exceptions.EntityNotFoundException: Exception of type 'Observability.Exceptions.EntityNotFoundException' was thrown.
+   at Observability.Services.WeatherForecastService.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Services\WeatherForecastService.cs:line 24
+   at Observability.Controllers.WeatherForecastController.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 15:48:10.482 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 15:48:13.029 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Observability.Exceptions.EntityNotFoundException: Exception of type 'Observability.Exceptions.EntityNotFoundException' was thrown.
+   at Observability.Services.WeatherForecastService.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Services\WeatherForecastService.cs:line 24
+   at Observability.Controllers.WeatherForecastController.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 15:48:28.959 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 15:48:28.986 +02:00 [INF] Getting temperature took 26ms
+2025-09-25 15:48:31.071 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 15:48:31.074 +02:00 [INF] Getting temperature took 2ms
+2025-09-25 15:48:55.249 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 15:48:55.463 +02:00 [INF] Getting temperature took 173ms
+2025-09-25 16:40:43.967 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 16:41:37.878 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 16:44:23.662 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 16:46:09.657 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 16:46:10.433 +02:00 [INF] Getting temperature took 568ms
+2025-09-25 16:46:13.297 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 16:46:16.930 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Observability.Exceptions.EntityNotFoundException: Exception of type 'Observability.Exceptions.EntityNotFoundException' was thrown.
+   at Observability.Services.WeatherForecastService.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Services\WeatherForecastService.cs:line 24
+   at Observability.Controllers.WeatherForecastController.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 16:49:35.866 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 16:51:39.732 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 16:51:40.100 +02:00 [INF] Getting temperature took 298ms
+2025-09-25 16:51:41.210 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 16:51:41.218 +02:00 [INF] Getting temperature took 7ms
+2025-09-25 16:51:43.779 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 16:51:46.042 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Observability.Exceptions.EntityNotFoundException: Exception of type 'Observability.Exceptions.EntityNotFoundException' was thrown.
+   at Observability.Services.WeatherForecastService.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Services\WeatherForecastService.cs:line 24
+   at Observability.Controllers.WeatherForecastController.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 17:07:57.926 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 17:09:18.601 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 17:13:03.614 +02:00 [ERR] Hosting failed to start
+System.NotSupportedException: Signal-specific AddOtlpExporter methods and the cross-cutting UseOtlpExporter method being invoked on the same IServiceCollection is not supported.
+   at OpenTelemetry.Exporter.OpenTelemetryBuilderServiceProviderExtensions.EnsureNoUseOtlpExporterRegistrations(IServiceProvider serviceProvider)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, ExportProcessorType exportProcessorType, BatchExportProcessorOptions`1 batchExportProcessorOptions, Boolean skipUseOtlpExporterRegistrationCheck, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.BuildOtlpExporterProcessor(IServiceProvider serviceProvider, OtlpExporterOptions exporterOptions, SdkLimitOptions sdkLimitOptions, ExperimentalOptions experimentalOptions, Func`2 configureExporterInstance)
+   at OpenTelemetry.Trace.OtlpTraceExporterHelperExtensions.<>c__DisplayClass2_0.<AddOtlpExporter>b__1(IServiceProvider sp)
+   at OpenTelemetry.Trace.TracerProviderBuilderExtensions.<>c__DisplayClass8_0.<AddProcessor>b__0(IServiceProvider sp, TracerProviderBuilder builder)
+   at OpenTelemetry.Trace.OpenTelemetryDependencyInjectionTracingServiceCollectionExtensions.ConfigureTracerProviderBuilderCallbackWrapper.ConfigureBuilder(IServiceProvider serviceProvider, TracerProviderBuilder tracerProviderBuilder)
+   at OpenTelemetry.Trace.TracerProviderSdk..ctor(IServiceProvider serviceProvider, Boolean ownsServiceProvider)
+   at OpenTelemetry.Trace.TracerProviderBuilderBase.<>c.<.ctor>b__3_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.Initialize(IServiceProvider serviceProvider)
+   at OpenTelemetry.Extensions.Hosting.Implementation.TelemetryHostedService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-09-25 17:20:34.965 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:20:35.163 +02:00 [INF] Getting temperature took 147ms
+2025-09-25 17:20:36.322 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:20:38.211 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Observability.Exceptions.EntityNotFoundException: Exception of type 'Observability.Exceptions.EntityNotFoundException' was thrown.
+   at Observability.Services.WeatherForecastService.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Services\WeatherForecastService.cs:line 24
+   at Observability.Controllers.WeatherForecastController.GetTemperatureForCity(String city) in C:\Users\markus.schmid\OneDrive - Dataciders GmbH\Dokumente\Arbeit\Wissenstransfer_202510\Observability\Observability\Controllers\WeatherForecastController.cs:line 26
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 17:23:26.273 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:23:26.444 +02:00 [INF] Getting temperature took 125ms
+2025-09-25 17:23:28.103 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:23:28.109 +02:00 [INF] Getting temperature took 5ms
+2025-09-25 17:23:29.714 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:23:29.721 +02:00 [INF] Getting temperature took 4ms
+2025-09-25 17:23:38.770 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:23:38.773 +02:00 [INF] Getting temperature took 2ms
+2025-09-25 17:23:40.455 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:23:40.459 +02:00 [INF] Getting temperature took 2ms
+2025-09-25 17:28:26.728 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:28:26.969 +02:00 [INF] Getting temperature took 179ms
+2025-09-25 17:28:28.008 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:28:28.014 +02:00 [INF] Getting temperature took 4ms
+2025-09-25 17:34:27.140 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:34:27.327 +02:00 [INF] Getting temperature took 127ms
+2025-09-25 17:34:28.668 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:34:28.678 +02:00 [INF] Getting temperature took 8ms
+2025-09-25 17:39:32.126 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-25 17:39:32.746 +02:00 [INF] Getting temperature took 472ms

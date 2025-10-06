@@ -1,0 +1,18 @@
+2025-09-29 14:53:16.698 +02:00 [DBG] Looking up temperature in database ItemCount=7
+2025-09-29 14:53:17.176 +02:00 [INF] Getting temperature took 361ms
+2025-09-29 17:01:38.910 +02:00 [INF] This is testing logging for value=Hello from TestingController
+2025-09-29 17:17:41.434 +02:00 [DBG] Resilience pipeline executing. Source: '-standard/', Operation Key: 'null'
+2025-09-29 17:17:42.971 +02:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 1422.4826ms
+2025-09-29 17:17:42.985 +02:00 [DBG] Resilience pipeline executed. Source: '-standard/', Operation Key: 'null', Result: '200', Execution Time: 1555.8133ms
+2025-09-29 17:17:43.414 +02:00 [DBG] Resilience pipeline executing. Source: '-standard/', Operation Key: 'null'
+2025-09-29 17:17:44.437 +02:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 1023.0112ms
+2025-09-29 17:17:44.438 +02:00 [DBG] Resilience pipeline executed. Source: '-standard/', Operation Key: 'null', Result: '200', Execution Time: 1024.4368ms
+2025-09-29 17:17:44.538 +02:00 [DBG] Resilience pipeline executing. Source: '-standard/', Operation Key: 'null'
+2025-09-29 17:17:45.546 +02:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 1007.6596ms
+2025-09-29 17:17:45.546 +02:00 [DBG] Resilience pipeline executed. Source: '-standard/', Operation Key: 'null', Result: '200', Execution Time: 1008.3652ms
+2025-09-29 17:17:45.941 +02:00 [DBG] Resilience pipeline executing. Source: '-standard/', Operation Key: 'null'
+2025-09-29 17:17:46.947 +02:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 1005.8501ms
+2025-09-29 17:17:46.948 +02:00 [DBG] Resilience pipeline executed. Source: '-standard/', Operation Key: 'null', Result: '200', Execution Time: 1006.8379ms
+2025-09-29 17:26:56.714 +02:00 [INF] This is testing logging for value=Hello from TestingController
+2025-09-29 17:26:58.587 +02:00 [INF] This is testing logging for value=Hello from TestingController
+2025-09-29 17:27:00.269 +02:00 [INF] This is testing logging for value=Hello from TestingController
