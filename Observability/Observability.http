@@ -4,7 +4,7 @@
 GET {{Observability_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Log Example
 GET {{Observability_HostAddress}}/weatherforecast/Houston/temperature
 Accept: application/json
 
@@ -21,6 +21,11 @@ POST {{Observability_HostAddress}}/weatherforecast
 Accept: application/json
 
 
-###
+### Testing dependency
 GET {{Observability_HostAddress}}/weatherforecast/dependency
+Accept: application/json
+
+
+### Metrics Test
+POST {{Observability_HostAddress}}/weatherforecast
 Accept: application/json

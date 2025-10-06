@@ -9,17 +9,23 @@ public sealed class ObservabilityService
 
     public async Task TestLongRunningOperation(CancellationToken cancellationToken)
     {
-        using var activity = activitySource.StartActivity("TestLongRunningOperation");
-        activity?.SetTag("customTag", "customValue");
+        await Task.Delay(TimeSpan.FromMilliseconds(100), cancellationToken);
 
-        activity?.AddEvent(new("Starting long-running operation"));
+        using (var activity = activitySource.StartActivity("TestLongRunningOperation"))
+        {
+            activity?.SetTag("customTag", "customValue");
 
-        await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
+            activity?.AddEvent(new("Starting long-running operation"));
 
-        activity?.AddEvent(new("Halfway through long-running operation"));
+            await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
 
-        await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
+            activity?.AddEvent(new("Halfway through long-running operation"));
 
-        activity?.AddEvent(new("Almost done with long-running operation"));
+            await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
+
+            activity?.AddEvent(new("Almost done with long-running operation"));
+        }
+
+        await Task.Delay(TimeSpan.FromMilliseconds(100), cancellationToken);
     }
 }

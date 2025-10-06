@@ -34,13 +34,6 @@ var observability = builder.AddProject<Projects.Observability>("observability")
     .WithEnvironment("Serilog__WriteTo__0__Args__serverUrl", seq)
 
     .WithEnvironment("JAEGER_ENDPOINT", jaeger.GetEndpoint("otlp-grpc"))
-    //.WithEnvironment("OTEL_EXPORTER_OTLP_PROTOCOL", "http")
-// Metrics: entweder Prometheus-Scrape (Pull) oder OTLP (Push) – beides s.u.
-// Für Prometheus-Scrape brauchst du i.d.R. keine env vars; MapPrometheusScrapingEndpoint() reicht.
-
-// Kleines Goodie: Link zur Jaeger-UI und Prometheus-UI in die App-Umgebung geben
-//.WithEnvironment("JAEGER_UI", jaeger.GetEndpoint("ui"))
-//.WithEnvironment("PROMETHEUS_URL", prometheus.GetEndpoint("http"))
 ;
 
 var prometheus = builder.AddContainer("prometheus", "prom/prometheus")

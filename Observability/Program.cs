@@ -16,6 +16,8 @@ builder.Host.UseSerilog((ctx, lc) => lc.ReadFrom.Configuration(ctx.Configuration
 
 builder.AddServiceDefaults();
 
+#region OpenTelemetry
+
 // NOTE: the following will be needed for open telemetry
 List<KeyValuePair<string, object>> attributes = [
     new("service.name", builder.Environment.ApplicationName),
@@ -57,6 +59,8 @@ builder.Services.AddOpenTelemetry()
         }))
     .ConfigureResource(x => x.AddAttributes(attributes));
 
+#endregion
+
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -69,10 +73,7 @@ builder.Services.AddDbContext<WeatherDbContext>(options =>
 builder.Services.AddScoped<WeatherForecastService>();
 builder.Services.AddScoped<ObservabilityService>();
 
-
 var app = builder.Build();
-
-var test = app.Configuration.GetValue<string>("OTEL_EXPORTER_OTLP_ENDPOINT");
 
 // NOTE: this is the cheap way to apply migrations at startup
 var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();

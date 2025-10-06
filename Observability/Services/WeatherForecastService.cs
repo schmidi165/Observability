@@ -15,7 +15,7 @@ public sealed class WeatherForecastService(
         if (logger.IsEnabled(LogLevel.Debug))
         {
             var count = await dbContext.Weather.CountAsync();
-            logger.LogDebug("Looking up temperature in database ItemCount={Count}", count);
+            logger.LogDebug("Looking up temperature in city={City} database ItemCount={Count}", city, count);
         }
 
         Stopwatch sw = new();
